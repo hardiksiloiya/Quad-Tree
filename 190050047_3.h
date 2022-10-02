@@ -394,7 +394,7 @@ class quad_tree{
         return val;
     }
 
-    /*int onecount(quad_tree* t)
+    int onecount(quad_tree* t)
     {
         if(t->bottomleft==NULL)
         {
@@ -489,7 +489,7 @@ class quad_tree{
     {
         if(m<matrix_size)
         compress(this,m);
-    }*/
+    }
 };
 /*
 int main()
