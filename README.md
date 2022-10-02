@@ -2,7 +2,7 @@
 Quad Tree structure for storing binary sparse images
 
 
-#Supported operations:#
+## Supported operations: ##
 * quad tree(int n): a constructor that initializes to a matrix of size 2n ×2n with all
 pixels 0. The value of n will be at most 20, and is called the height of the quad tree.
 * ~quad tree() : the destructor that destroys the tree.
