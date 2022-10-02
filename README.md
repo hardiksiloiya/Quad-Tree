@@ -2,7 +2,7 @@
 Quad Tree structure for storing binary sparse images
 
 
-Supported operations:
+#Supported operations:#
 * quad tree(int n): a constructor that initializes to a matrix of size 2n ×2n with all
 pixels 0. The value of n will be at most 20, and is called the height of the quad tree.
 * ~quad tree() : the destructor that destroys the tree.
@@ -15,4 +15,3 @@ pixels 0. The value of n will be at most 20, and is called the height of the qua
 AND of the two images is computed.
 * void complement() : complement all the entries in the matrix.
 * void resize(int m): Change the size of the matrix to 2m × 2m. This is done as follows. If m ≥ n, replace each pixel of the original image by a 2m−n × 2m−n matrix with all values equal to the original pixel. If m < n, divide the matrix into 2m × 2m submatrices, each of size 2n−m ×2n−m, and replace each submatrix by a pixel whose value occurs more often in the submatrix. If equal, choose 1.
-* void extract(int x1, int y1, int m) : the new value is the 2m ×2m submatrix with rows from x1 to x1+2m − 1 and columns y1 to y1 + 2m − 1. It can be assumed that the submatrix is well-defined.
